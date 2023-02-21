@@ -6,7 +6,8 @@ import EditForm from "./pages/EditForm";
 import AddForm from "./pages/AddForm";
 import Dashboard from "./pages/Dashboard";
 import "bootstrap/dist/css/bootstrap.css";
-export const url = "https://629884def2decf5bb744ac85.mockapi.io/products";
+
+export const url = "https://63ef4f91c59531ccf16ca737.mockapi.io/Products";
 
 function App() {
   return (

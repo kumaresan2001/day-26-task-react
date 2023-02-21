@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { url } from "../App";
 import Product from "../components/Product";
 
+
 export default function Home() {
   const [products, setProducts] = useState([]);
 

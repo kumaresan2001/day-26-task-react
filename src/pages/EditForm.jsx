@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { url } from "../App";
 import Form from "../components/Form";
 
+
 export default function EditForm() {
   const [product, setProduct] = useState("");
   const { id } = useParams();
@@ -24,7 +25,7 @@ export default function EditForm() {
       <h2 className="mt-3 text-center">
         {id ? `Edit Product - ID: ${id}` : "Add Product"}
       </h2>
-      {product ? <Form id={id} products={product} /> : "Loading..."}
+      {product ? <Form id={id} products={product} url={url} /> : "Loading..."}
     </>
   );
 }
